@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bartho's Badges</title>
+		<meta charset="UTF-8" />
+		<script data-main="scripts/main" src="scripts/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="scripts/badges.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/badges.css" />
+	</head>
+
+	<body onload="buildContent('stats')">
+		<div class="header">
+			<p class="title">Badges</p>
+			<!--p class="legend"></p-->
+		</div>
+
+		<div class="nav-container">
+			<ul>
+				<li><div class="nav stats selected" onclick="onClick('stats')">Stats</div></li>
+				<li><div class="nav participations" onclick="onClick('participations')">Participations</div></li>
+				<li><div class="nav genres" onclick="onClick('genres')">Genres</div></li>
+				<li><div class="nav tags" onclick="onClick('tags')">Tags</div></li>
+				<li><div class="nav awc" onclick="onClick('awc')">AWC</div></li>
+			</ul>
+		</div>
+
+		<hr>
+		
+
+
+        <div class="global-container"></div>
+
+	</body>
+</html>

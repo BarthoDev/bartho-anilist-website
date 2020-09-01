@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+* {
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+	box-sizing: border-box;
+	cursor: default; 
+	/*border: 1px solid red;*/
+}
+
+img[alt="www.000webhost.com"] {
+	display: none !important;
+}
+
+body {
+	/*background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(https://i.pinimg.com/originals/20/70/f8/2070f812d6a581d5782c2df2f13165e8.gif) center/100% fixed;*/
+	background-color: rgb(11,22,34);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+ul {
+	display: flex;
+}
+
+hr {
+	height: 1px;
+	width: 20%;
+	opacity: 0.5;
+	margin-bottom: 50px;
+}
+
+
+/* ========== HEADER ========*/
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header .title {
+	width: 100%;
+	font-size: 5em;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	height: 100%;
+	overflow: hidden;
+
+	background: 50% 100% / 50% 50% no-repeat
+	radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-size: 5vw;
+	font-family: "Source Sans Pro", sans-serif;
+	animation: 	reveal 2000ms ease-in-out forwards 200ms,
+				glow 2500ms linear infinite 2000ms;
+
+}  
+
+.header .legend {
+	font-family: sans-serif;
+	color: rgba(255, 255, 255, 0.6);
+	width: 600px;
+	text-align: center;
+	font-size: 1.1em;
+	margin-bottom: 30px;
+}
+
+@keyframes reveal {
+	80%{
+		letter-spacing: 8px;
+	}
+	100% {
+		background-size: 300% 300%;
+	}
+}
+@keyframes glow {
+	40% {
+		text-shadow: 0 0 8px #fff;
+	}
+}
+
+/* ========== PODIUM ========*/
+
+.podium {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	padding-bottom: 30px;
+}
+
+.podium .element {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.podium .element img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 20px;
+	opacity: 0.6;
+	transform: scale(0.92);
+	transition: 0.3s linear;
+	/*box-shadow: 5px 10px 10px rgba(0, 0, 0, 1);*/
+}
+
+.podium .element img:hover {
+	opacity: 1;
+}
+
+.podium .element .index {
+	position: absolute;
+	margin: -70px 30px;
+	color: #ffbe3d;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 4em;
+	text-shadow: 5px 5px 10px black;
+}
+
+.podium .element .name {
+	font-family: sans-serif;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 0.6);
+	padding: 20px 20px;
+	border-radius: 100px;
+	font-size: 1.3em;
+	transition: 0.5s linear;
+}
+
+.podium .element .name:hover {
+	background: white;
+	color: black;
+}
+
+
+/* ============ DISPLAY SWITCH BUTTONS =========*/
+
+.display-container {
+	font-family: sans-serif;
+	font-size: 1.2em;
+	position: relative;
+}
+
+.display {
+	margin-left: 50px;
+	margin-top: -20px;
+	margin-bottom: 30px;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 10px;
+	border: 2px solid rgba(255,255,255, 0.5);
+}
+
+.display.card {
+	background-color: rgba(255,255,255,0.5);
+	margin-left: 5px;
+}
+
+.display:hover {
+	cursor: pointer;
+}
+
+
+
+/* ============ TOP =========*/
+
+
+/* ====== MIXED PROPERTIES */
+
+.top ul {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.top .element .lefter {
+	position: relative;
+	display: flex;
+}
+
+.top .element .lefter .index {
+	width: 100%;
+}
+
+.top .element .lefter a {
+	position: absolute;
+	font-family: sans-serif;
+	font-weight: 700;
+	color: white;
+	font-size: 2em;
+	left: 0;
+	bottom: 0;
+}
+
+.top .element img {
+	opacity: 0.2;
+	border-radius: 150px;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	transition: 0.2s linear;
+	transform: scale(0.9)
+}
+
+.top .element:hover {
+	transform: scale(1.04);
+}
+
+.top .element:hover img {
+	opacity: 0.9;
+	z-index: 100;
+}
+
+
+/*==== CARD */
+
+.top .element.card {
+	/*box-shadow: 10px 5px 20px rgba(1, 1, 1, 0.5);*/
+	background-color: rgba(21, 31, 46, 1);
+	border-radius: 20px;
+	font-size: 2em;
+	font-family: sans-serif;
+	color: rgba(255, 255, 255, 0.6);
+	display: flex;
+	align-items: center;
+	margin: 10px 10px;
+	transition: 0.2s linear;
+}
+
+.top .element.card img {
+	border-radius: 20px !important;
+}
+
+.top .element.card .name {
+	margin: 0px 30px 0px 20px;
+}
+
+.top .element.card .lefter .text {
+	margin: 25% 38%;
+}
+
+.top .element.card .lefter .textDizaine {
+	margin: 25% 28%;
+}
+
+.top .element.card:hover {
+	background-color: rgba(21, 31, 46, 1);
+}
+
+
+/*==== COVER */
+
+.top .element.cover {
+	border-radius: 150px;
+	font-size: 1.3em;
+	font-family: sans-serif;
+	color: rgba(255, 255, 255, 0.6);
+	display: grid;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 10px;
+	transition: 0.2s linear;
+}
+
+.top .element.cover .name {
+	padding: 0px 20px;
+}
+
+.top .element.cover .lefter .text {
+	margin: 30% 43%;
+}
+
+.top .element.cover .lefter .textDizaine {
+	margin: 30% 33%;
+}
+
+.top .element.cover:hover .name {
+	color: white;
+}
+
+
+/*

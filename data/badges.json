@@ -1,0 +1,530 @@
+{
+    "badges": {
+        "participations": [
+            {
+                "name": "Annuals",
+                "list": [
+                    {
+                        "image": "https://files.catbox.moe/s6sd3r.gif",
+                        "lien": null,
+                        "name": "Bikini Day 2020",
+                        "date": "05/07/2020"
+                    },
+                    {
+                        "image": "https://media.giphy.com/media/fwWFxaBoPiCYYHvK9T/giphy.gif",
+                        "lien": null,
+                        "name": "Tanabata Festival 2020",
+                        "date": "07/07/2020"
+                    },
+                    {
+                        "image": "https://media.giphy.com/media/PmkDnL5mxr86dyUmLR/giphy.gif",
+                        "lien": null,
+                        "name": "Bastille Day 2020",
+                        "date": "14/07/2020"
+                    },
+                    {
+                        "image": "https://anilist-badges.com/wp-content/uploads/giphy-3.gif",
+                        "lien": null,
+                        "name": "Fate/Day 2020",
+                        "date": "03/08/2020"
+                    }
+                ]
+            },
+            {
+                "name": "Colors",
+                "list": [
+                    {
+                        "image": "https://files.catbox.moe/c7f9yl.gif",
+                        "lien": null,
+                        "name": "Pink Day",
+                        "date": "09/07/2020"
+                    },
+                    {
+                        "image": "https://anilist-badges.com/wp-content/uploads/2020/07/1.gif",
+                        "lien": null,
+                        "name": "Red Day",
+                        "date": "25/07/2020"
+                    }
+                    
+                ]
+            },
+            {
+                "name": "Birthdays",
+                "list": [
+                    {
+                        "image": "https://media.giphy.com/media/ZEg5Q4iYocJZ101IbY/giphy.gif",
+                        "lien": null,
+                        "name": "Aqua's Birthday",
+                        "date": "01/08/2020"
+                    }
+                ]
+            },
+            {
+                "name": "Food",
+                "list": [
+                    {
+                        "image": "https://media3.giphy.com/media/JoVwUAFLe1asbhEWQg/giphy.gif",
+                        "lien": null,
+                        "name": "Ice Cream Day",
+                        "date": "19/07/2020"
+                    }
+                ]
+            },
+            {
+                "name": "Other",
+                "list": [
+                    {
+                        "image": "https://media.giphy.com/media/Ph6MlMUjm8hpeQCCQp/giphy.gif",
+                        "lien": null,
+                        "name": "Cultured Rebellion",
+                        "date": "01/07/2020"
+                    },
+                    {
+                        "image": "https://media.giphy.com/media/hrLgmgORKT9bF1abfL/giphy.gif",
+                        "lien": null,
+                        "name": "Tower of God 10th Anniversary",
+                        "date": "30/06/2020"
+                    },
+                    {
+                        "image": "https://i.imgur.com/KqbquLP.gif",
+                        "lien": null,
+                        "name": "30 Day Anime Challenge",
+                        "date": "-"
+                    }
+
+                ]
+            }
+        ],
+
+
+
+        "stats": [
+            {
+                "name": "Episodes Watched",
+                "list": [
+                    "https://i.postimg.cc/rshDSd5k/1000_Episodes_Watched_ReVamp.png",
+                    "https://i.postimg.cc/7YWCh2x1/2000_Episodes_Watched_ReVamp.png",
+                    "https://i.postimg.cc/Gh1228SV/3000_Episodes_Watched_ReVamp.png",
+                    "https://i.postimg.cc/vZ2bWc3Q/4000_Episodes_Watched_ReVamp.png",
+                    "https://i.postimg.cc/m265jCf6/5000_Episodes_Watched_ReVampp.png",
+                    "https://i.postimg.cc/gj2gqkMW/6000_Episodes_Watched_ReVamp_transparent.png"
+                ]
+            },
+            {
+                "name": "Chapters Read",
+                "list": [
+                    "https://i.postimg.cc/j2yfPqZq/1000-Read-Re-Vamp.png",
+                    "https://i.postimg.cc/85JMkmv6/2000-Read-Re-Vamp.png",
+                    "https://i.postimg.cc/bNjk8bwZ/3000-Read-Re-Vamp.png",
+                    "https://i.postimg.cc/CKdfJsmQ/4000-Read-Re-Vamp.png",
+                    "https://i.postimg.cc/1X1nmhPk/5000-Read-Re-Vamp.png",
+                    "https://i.postimg.cc/Mp6BfSRx/6000-Read-Re-Vamp-transparent.png"
+                ]
+            },
+            {
+                "name": "Movies Watched",
+                "list": [
+                    "https://i.postimg.cc/qqXV5RrZ/25_Movies_Watched_ReVamp.png",
+                    "https://i.postimg.cc/Vv74vQWk/50_Movies_Watched_ReVamped.png",
+                    "https://i.postimg.cc/ZYjwVpzz/100_Movies_Watched_ReVamped_transparent.png"
+                ]
+            }
+        ],
+        
+
+
+        "tags": {
+            "owned": [
+                "Female_Protagonist.25",
+                "Female_Protagonist.100",
+                "Male_Protagonist.25",
+                "Male_Protagonist.100",
+                "Shoujo.25",
+                "Seinen.25",
+                "Seinen.100",
+                "Shounen.25",
+                "Shounen.100",
+                "Isekai.25",
+                "Super_Power.25",
+                "Super_Power.100",
+                "Demon.25",
+                "School.25",
+                "School.100",
+                "Magic.25",
+                "Magic.100"
+            ],
+            "Female_Protagonist": {
+                "25": {
+                    "unlocked": "https://i.postimg.cc/rpYHw17w/25-Female-Protagonist-Watched.png",
+                    "locked": "https://i.postimg.cc/52gGZd3v/25-Female-Protagonist-Watched-BW.png"
+                },
+                "100": {
+                    "unlocked": "https://i.postimg.cc/zfLjp9Pq/100-Female-Protagonist-Watched.png",
+                    "locked": "https://i.postimg.cc/fRqCcwCH/100-Female-Protagonist-Watched-BW.png"
+                }
+            },
+            "Male_Protagonist": {
+                "25": {
+                    "unlocked": "https://i.postimg.cc/qMd5qMDy/25-Male-Protagonist-Watched.png",
+                    "locked": "https://i.postimg.cc/HWMNT7zT/25-Male-Protagonist-Watched-BW.png"
+                },
+                "100": {
+                    "unlocked": "https://i.postimg.cc/Hkn4sqmb/100-Male-Protagonist-Watched.png",
+                    "locked": "https://i.postimg.cc/hjT0RVBw/100-Male-Protagonist-Watched-BW.png"
+                }
+            },
+            "Shoujo": {
+                "25": {
+                    "unlocked": "https://i.postimg.cc/8C1FzWM9/25-Shoujo-Watched-Revised.png",
+                    "locked": "https://i.postimg.cc/Vk9rw4rX/25-Shoujo-Watched-Revised-BW.png"
+                },
+                "100": {
+                    "unlocked": "https://i.postimg.cc/ZqVWBRLR/100-Shoujo-Watched.png",
+                    "locked": "https://i.postimg.cc/50y6wVPm/100-Shoujo-Watched-BW.png"
+                }
+            },
+            "Seinen": {
+                "25": {
+                    "unlocked": "https://i.postimg.cc/k5DjzVD3/25-Seinen-Watched.png",
+                    "locked": "https://i.postimg.cc/jj98bsJW/25-Seinen-Watched-BW.png"
+                },
+                "100": {
+                    "unlocked": "https://i.postimg.cc/c4ZFZk6c/50-Seinen-tag-Watched.png",
+                    "locked": "https://i.postimg.cc/SNrDKLMb/50-Seinen-tag-Watched-BW.png"
+                }
+            },
+            "Shounen": {
+                "25": {
+                    "unlocked": "https://i.postimg.cc/90P1ZZgT/25-Shounen-Watched.png",
+                    "locked": "https://i.postimg.cc/nrf0X02p/25-Shounen-Watched-BW.png"
+                },
+                "100": {
+                    "unlocked": "https://i.postimg.cc/FR5jp1Lx/100-Shounen-Watched.png",
+                    "locked": "https://i.postimg.cc/tT3FMydG/100-Shounen-Watched-BW.png"
+                }
+            },
+            "Isekai": {
+                "25": {
+                    "unlocked": "https://i.postimg.cc/50YRYHMq/25-Isekai-Watched.png",
+                    "locked": "https://i.postimg.cc/3ww6hSSq/25-Isekai-Watched-BW.png"
+                },
+                "100": {
+                    "unlocked": "https://i.postimg.cc/QNgq6gSK/100-Isekai-Watched.png",
+                    "locked": "https://i.postimg.cc/wMzQq3xB/100-Isekai-Watched-BW.png"
+                }
+            },
+            "Super_Power": {
+                "25": {
+                    "unlocked": "https://i.postimg.cc/GmmzTBF8/25-Super-Power-Watched.png",
+                    "locked": "https://i.postimg.cc/Wp05Bcp3/25-Super-Power-Watched-BW.png"
+                },
+                "100": {
+                    "unlocked": "https://i.postimg.cc/3N32M694/100-Super-Power-Watched.png",
+                    "locked": "https://i.postimg.cc/7hX0qVQB/100-Super-Power-Watched-BW.png"
+                }
+            },
+            "Demon": {
+                "25": {
+                    "unlocked": "https://i.postimg.cc/DwnHjyqn/25-Demon-Watched.png",
+                    "locked": "https://i.postimg.cc/8PhxmrfZ/25-Demon-Watched-BW.png"
+                },
+                "100": {
+                    "unlocked": "https://i.postimg.cc/NfgkZyPJ/100-Demon-Watched.png",
+                    "locked": "https://i.postimg.cc/FsDVv9M9/100-Demon-Watched-BW.png"
+                }
+            },
+            "School": {
+                "25": {
+                    "unlocked": "https://i.postimg.cc/W1NYmYv4/25-School-Tag-Watched.png",
+                    "locked": "https://i.postimg.cc/bNHFtc4M/25-School-Tag-Watched-BW.png"
+                },
+                "100": {
+                    "unlocked": "https://i.postimg.cc/KYgPttRz/100-School-Tag-Watched.png",
+                    "locked": "https://i.postimg.cc/GmfPBX3V/100-School-Tag-Watched-BW.png"
+                }
+            },
+            "Magic": {
+                "25": {
+                    "unlocked": "https://i.postimg.cc/26sX4zkp/25-Magic-Watched.png",
+                    "locked": "https://i.postimg.cc/SRc1dwRn/25-Magic-Watched-BW.png"
+                },
+                "100": {
+                    "unlocked": "https://i.postimg.cc/wMkc7H3Q/100-Magic-Watched.png",
+                    "locked": "https://i.postimg.cc/1zLKdJLw/100-Magic-Watched-BW.png"
+                }
+            }
+        },
+
+
+
+
+        "genres":[
+            {
+                "name": "Hentai",
+                "level": 3,
+                "amount": {
+                    "bronze": 50,
+                    "silver": 100,
+                    "gold": 200
+                },
+                "images": [
+                    "https://i.postimg.cc/KzvXbBZJ/Hentai-Mastery-Tier-1.png",
+                    "https://i.postimg.cc/prpghv5j/Hentai-Mastery-Tier-2.png",
+                    "https://i.postimg.cc/mkJK7n75/Hentai-Mastery-Tier-3.png"
+                ]
+            },
+            {
+                "name": "Action",
+                "level": 0,
+                "amount": {
+                    "bronze": 200,
+                    "silver": 400,
+                    "gold": 600
+                },
+                "images": [
+                    "https://i.postimg.cc/ZRZbdWJd/Action-Mastery-Bronze.png",
+                    "https://i.postimg.cc/6qbtgznr/Action-Mastery-Silver.png",
+                    "https://i.postimg.cc/sD1V7dCw/Action-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Adventure",
+                "level": 0,
+                "amount": {
+                    "bronze": 200,
+                    "silver": 400,
+                    "gold": 600
+                },
+                "images": [
+                    "https://i.postimg.cc/85H1BTCn/Adventure-Mastery-Bronze.png",
+                    "https://i.postimg.cc/1Rvm8R28/Adventure-Mastery-Silver.png",
+                    "https://i.postimg.cc/q7H0PNh5/Adventure-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Comedy",
+                "level": 0,
+                "amount": {
+                    "bronze": 200,
+                    "silver": 400,
+                    "gold": 600
+                },
+                "images": [
+                    "https://i.postimg.cc/90QcLsRX/Comedy-Mastery-Bronze.png",
+                    "https://i.postimg.cc/mDb4rKS3/Comedy-Mastery-Silver.png",
+                    "https://i.postimg.cc/T3DfNVwb/Comedy-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Fantasy",
+                "level": 0,
+                "amount": {
+                    "bronze": 200,
+                    "silver": 400,
+                    "gold": 600
+                },
+                "images": [
+                    "https://i.postimg.cc/dtzKChBV/Fantasy-Mastery-Bronze.png",
+                    "https://i.postimg.cc/Kz968jjF/Fantasy-Mastery-Silver.png",
+                    "https://i.postimg.cc/FH3XVhWg/Fantasy-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Sci-Fi",
+                "level": 0,
+                "amount": {
+                    "bronze": 175,
+                    "silver": 350,
+                    "gold": 550
+                },
+                "images": [
+                    "https://i.postimg.cc/433kkp4w/Sci-fi-Mastery-Bronze.png",
+                    "https://i.postimg.cc/V6Sx51CC/Sci-Fi-Mastery-Silver.png",
+                    "https://i.postimg.cc/xdFr0qcQ/Sci-Fi-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Slice of Life",
+                "level": 0,
+                "amount": {
+                    "bronze": 160,
+                    "silver": 330,
+                    "gold": 520
+                },
+                "images": [
+                    "https://i.postimg.cc/G2ZZyNFS/Slice-of-Life-Mastery-Bronze.png",
+                    "https://i.postimg.cc/jqfVbxKV/Slice_of_Life_Mastery_Silver.png",
+                    "https://i.postimg.cc/hvTNbrM4/Slice-of-Life-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Romance",
+                "level": 0,
+                "amount": {
+                    "bronze": 160,
+                    "silver": 330,
+                    "gold": 520
+                },
+                "images": [
+                    "https://i.postimg.cc/15xQngM5/Romance-Mastery-Bronze.png",
+                    "https://i.postimg.cc/QxprpXng/Romance-Mastery-Silver.png",
+                    "https://i.postimg.cc/13s1BLLk/Romance-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Drama",
+                "level": 0,
+                "amount": {
+                    "bronze": 160,
+                    "silver": 330,
+                    "gold": 520
+                },
+                "images": [
+                    "https://i.postimg.cc/59KJx7Qv/Drama-Mastery-Bronze.png",
+                    "https://i.postimg.cc/50nVQpPh/Drama-Mastery-Silver.png",
+                    "https://i.postimg.cc/vTKw3TwX/Drama-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Horror",
+                "level": 0,
+                "amount": {
+                    "bronze": 75,
+                    "silver": 125,
+                    "gold": 250
+                },
+                "images": [
+                    "https://i.postimg.cc/654kB9XJ/Horror-Mastery-Bronze.png",
+                    "https://i.postimg.cc/T38ZwZdy/Horror-Mastery-Silver.png",
+                    "https://i.postimg.cc/xjZrrXB3/Horror-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Sports",
+                "level": 0,
+                "amount": {
+                    "bronze": 125,
+                    "silver": 250,
+                    "gold": 400
+                },
+                "images": [
+                    "https://i.postimg.cc/65VD8MyY/Sports_Mastery_Bronze.png",
+                    "https://i.postimg.cc/P5294NbD/Sports_Mastery_Silver.png",
+                    "https://i.postimg.cc/fRw1mYdZ/Sports_Mastery_Gold.png"
+                ]
+            },
+            {
+                "name": "Mecha",
+                "level": 0,
+                "amount": {
+                    "bronze": 125,
+                    "silver": 250,
+                    "gold": 400
+                },
+                "images": [
+                    "https://i.postimg.cc/mkz5ZSKN/Mecha-Mastery-Bronze.png",
+                    "https://i.postimg.cc/TYmTCjhD/Mecha-Mastery-Silver.png",
+                    "https://i.postimg.cc/RC2M7pCm/Mecha-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Thriller",
+                "level": 0,
+                "amount": {
+                    "bronze": 50,
+                    "silver": 100,
+                    "gold": 200
+                },
+                "images": [
+                    "https://i.postimg.cc/5NJrW8nv/Thriller_Mastery_Bronze.png",
+                    "https://i.postimg.cc/QMF4JmdL/Thriller_Mastery_Silver.png",
+                    "https://i.postimg.cc/mgXp9JRN/Thriller_Mastery_Gold.png"
+                ]
+            },
+            {
+                "name": "Supernatural",
+                "level": 0,
+                "amount": {
+                    "bronze": 125,
+                    "silver": 250,
+                    "gold": 400
+                },
+                "images": [
+                    "https://i.postimg.cc/TYc4dh4s/Supernatural_Mastery_Bronze.png",
+                    "https://i.postimg.cc/rwFYKM6w/Supernatural_Mastery_Silver.png",
+                    "https://i.postimg.cc/CK223tQL/Supernatural_Gold_Mastery.png"
+                ]
+            },
+            {
+                "name": "Psychological",
+                "level": 0,
+                "amount": {
+                    "bronze": 75,
+                    "silver": 125,
+                    "gold": 200
+                },
+                "images": [
+                    "https://i.postimg.cc/bYSPw0xB/Psycological-Mastery-Bronze.png",
+                    "https://i.postimg.cc/W3hvrgQt/Psychological-Mastery-Silver.png",
+                    "https://i.postimg.cc/mDJGShsj/Psychological-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Mystery",
+                "level": 0,
+                "amount": {
+                    "bronze": 125,
+                    "silver": 250,
+                    "gold": 400
+                },
+                "images": [
+                    "https://i.postimg.cc/ZqYZb1H8/Mystery-Mastery-Bronze.png",
+                    "https://i.postimg.cc/WzZcYjpv/Mystery-Mastery-Silver.png",
+                    "https://i.postimg.cc/0NtvbcXL/Mystery-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Ecchi",
+                "level": 0,
+                "amount": {
+                    "bronze": 75,
+                    "silver": 125,
+                    "gold": 200
+                },
+                "images": [
+                    "https://i.postimg.cc/TPjGfTnY/Ecchi-Mastery-Bronze.png",
+                    "https://i.postimg.cc/kXVmDQWH/Ecchi-Mastery-Silver.png",
+                    "https://i.postimg.cc/Znnh832C/Ecchi-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Mahou Shoujo",
+                "level": 0,
+                "amount": {
+                    "bronze": 75,
+                    "silver": 125,
+                    "gold": 200
+                },
+                "images": [
+                    "https://i.postimg.cc/3wYVjmDY/Mahou-Shoujo-Mastery-Bronze.png",
+                    "https://i.postimg.cc/DZYNKNpw/Mahou-Shoujo-Mastery-Silver.png",
+                    "https://i.postimg.cc/LsD7x5zf/Mahou-Shoujo-Mastery-Gold.png"
+                ]
+            },
+            {
+                "name": "Music",
+                "level": 0,
+                "amount": {
+                    "bronze": 75,
+                    "silver": 125,
+                    "gold": 200
+                },
+                "images": [
+                    "https://i.postimg.cc/h4XD7RBM/Music-Mastery-Bronze.png",
+                    "https://i.postimg.cc/P5jTcL8F/Music-Mastery-Silver.png",
+                    "https://i.postimg.cc/Jz5MW1N7/Music-Mastery-Gold.png"
+                ]
+            }
+        ]
+    }
+}

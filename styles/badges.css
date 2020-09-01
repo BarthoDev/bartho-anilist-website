@@ -1,0 +1,368 @@
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+* {
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+	box-sizing: border-box;
+	cursor: default; 
+	/*border: 1px solid red;*/
+}
+
+img[alt="www.000webhost.com"] {
+	display: none !important;
+}
+
+body {
+	/*background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(https://i.pinimg.com/originals/20/70/f8/2070f812d6a581d5782c2df2f13165e8.gif) center/100% fixed;*/
+	background-color: rgb(11,22,34);
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+ul {
+	display: flex;
+}
+
+hr {
+	height: 1px;
+	width: 20%;
+	opacity: 0.5;
+	margin-bottom: 50px;
+}
+
+/* ========== HEADER ========*/
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header .title {
+	width: 100%;
+	font-size: 5em;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	height: 100%;
+	overflow: hidden;
+	
+	background: 50% 100% / 50% 50% no-repeat
+	radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-size: 5vw;
+	font-family: "Source Sans Pro", sans-serif;
+	animation: 	reveal 2000ms ease-in-out forwards 200ms,
+	glow 2500ms linear infinite 2000ms;
+	
+}  
+
+.header .legend {
+	font-family: sans-serif;
+	color: rgba(255, 255, 255, 0.6);
+	width: 600px;
+	text-align: center;
+	font-size: 1.1em;
+	margin-bottom: 30px;
+}
+
+@keyframes reveal {
+	80%{
+		letter-spacing: 8px;
+	}
+	100% {
+		background-size: 300% 300%;
+	}
+}
+@keyframes glow {
+	40% {
+		text-shadow: 0 0 8px #fff;
+	}
+}
+
+/* ============ DISPLAY SWITCH BUTTONS =========*/
+
+.nav-container {
+	font-family: sans-serif;
+	font-size: 1.2em;
+	position: relative;
+	padding: 0px 50px 0px 0px;
+}
+
+.nav {
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 10px;
+	border: 2px solid rgba(255,255,255, 0.5);
+}
+
+.nav.selected {
+	background-color: rgba(255,255,255,0.5);
+}
+
+.nav:hover {
+	cursor: pointer;
+}
+
+
+
+/* ============ PARTICIPATIONS =========*/
+
+
+.categories[participations] {
+	display: flex;
+	flex-direction: column;
+}
+
+.category[participations] {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title[participations] {
+	font-size: 2em;
+	font-family: sans-serif;
+	font-weight: 500;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.elements[participations] {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	
+	background-color: rgb(21,31,46);
+	padding: 30px 40px 10px 20px;
+	border-radius: 5px;
+	
+	margin-bottom: 30px;
+	max-width: 1360px;
+
+	transition: 0.3s linear;
+}
+
+.element[participations] {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.image[participations] {
+	width: 300px;
+	height: 168px;
+	border-radius: 5px;
+	transition: 0.3s linear;
+}
+
+.date[participations] {
+	position: absolute;
+
+	width: 300px;
+	height: 165px;
+	text-align: center;
+	line-height: 165px;
+
+	color: white;
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 1.8em;
+	opacity: 0;
+
+	transition: 0.3s linear;
+}
+
+.element[participations]:hover > .image[participations] {
+	opacity: 0.1;
+}
+.element[participations]:hover > .date[participations] {
+	opacity: 1;
+}
+
+/* ============ TAGS =========*/
+
+.categories[tags] {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.category[tags] {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+
+	background-color: rgb(21,31,46);
+	padding: 30px 30px 30px 30px;
+	border-radius: 5px;
+}
+
+.title[tags] {
+	font-size: 1.5em;
+	font-family: sans-serif;
+	font-weight: 500;
+	color: white;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.elements[tags] {
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+}
+
+.element[tags] {
+	width: 130px;
+	height: 180px;
+	transition: 0.3s linear;
+	border-radius: 5px;
+}
+
+
+.element.unlocked[tags]:hover {
+	transform: scale(1.1);
+
+}
+
+
+/* ============ STATS =========*/
+
+
+.categories[stats] {
+	display: flex;
+	flex-direction: column;
+}
+
+.category[stats] {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.title[stats] {
+	font-size: 2em;
+	font-family: sans-serif;
+	font-weight: 500;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.elements[stats] {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	
+	background-color: rgb(21,31,46);
+	padding: 30px 40px 10px 20px;
+	border-radius: 5px;
+	
+	margin-bottom: 30px;
+	max-width: 1360px;
+
+	transition: 0.3s linear;
+}
+
+.element[stats] {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.image[stats] {
+	width: 130px;
+	height: 180px;
+	border-radius: 5px;
+	transition: 0.3s linear;
+}
+
+/* ============ GENRES =========*/
+
+.categories[genres] {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 50px;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.category[genres] {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+
+	background-color: rgb(21,31,46);
+	padding: 30px 30px 30px 30px;
+	border-radius: 5px;
+}
+
+.title[genres] {
+	font-size: 1.5em;
+	font-family: sans-serif;
+	font-weight: 500;
+	color: white;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.elements[genres] {
+	display: flex;
+	justify-content: space-between;
+	width: 450px;
+}
+
+.element[genres] {
+	position: relative;
+}
+
+.image[genres] {
+	width: 130px;
+	height: 180px;
+	transition: 0.2s linear;
+	border-radius: 5px;
+}
+
+.text[genres] {
+	width: 130px;
+	height: 180px;
+	position: absolute;
+	text-align: center;
+	line-height: 180px;
+
+	color: white;
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 1.8em;
+	opacity: 0;
+	transition: 0.2s linear;
+}
+
+.element[genres]:hover > .text[genres] {
+	opacity: 1;
+}
+.element[genres]:hover > .image[genres] {
+	opacity: 0.25;
+}
+
